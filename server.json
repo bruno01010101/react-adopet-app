@@ -92,6 +92,14 @@
       "phone": "3299999999",
       "city": "",
       "about": ""
+    },
+    {
+      "name": "bruno",
+      "email": "laracroft@gmail.fodase",
+      "password": "123456",
+      "confirmPassword": "123456",
+      "id": "V1KS5Zu3-Uc"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
