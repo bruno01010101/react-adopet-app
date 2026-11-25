@@ -1,7 +1,7 @@
-import React from 'react';
+import type { IPet } from '../../types';
 import { Link } from 'react-router';
 
-const Card = ({ pet }) => {
+const Card = (pet: IPet) => {
 	return (
 		<div className='bg-[#F6F6F6] rounded-lg shadow-md p-6 w-full flex flex-col items-center justify-center'>
 			<img src={pet.image} alt={pet.name} className='w-40 h-40 object-cover rounded-full' />
